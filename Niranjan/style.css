@@ -1,0 +1,234 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    background-color:#073763;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+body{
+    background-color: #073763b0;
+}
+.logo{
+    height: 50px;
+    width: 150px; 
+}
+.nav:hover{
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    background-color:#f0c244 ;
+    border-radius: 10px;
+}
+.search{
+    display: flex; 
+    height: 25px;
+    align-items: center;
+}
+.ser{
+    height: 18px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-right: solid black 2px;
+    
+}
+.searchbar{
+    color: black ;
+    border-radius: 2px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-left: 0px;
+    border: none;
+}
+.poster{
+    /* height: 300px; */
+    width: 25%;
+    margin: 5%;
+    border-radius: 10px;
+    border: 2px solid #45543f;
+}
+.mnames{
+    color: #45543f;
+}
+.maindiv{
+    background-color:#a9e1f2b5;
+    margin-top: 15px;
+    border: 5px solid #f0c244;
+    border-right: 0px;
+    border-radius: 10px;
+    width: 70%;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;   
+}
+.firdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: left; 
+}
+.secdiv{
+    opacity: 100%;
+    width:500px;
+}
+.superdiv{
+    display: flex;
+    
+}
+.characters{
+    width: 30%;
+    border:5px solid #f0c244;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    align-items: center;
+    background-color: #a9e1f2b5;
+    border-left: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.ch{
+    width:30%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    color:#45543f;
+    border-radius: 50%;
+}
+#dq{
+    background-image: url(dq.png);
+    background-size: contain;
+    background-position: center;
+}
+#mt{
+    background-image: url(mt.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#rm{
+    background-image: url(rm.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#vk{
+    background-image: url(vk.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#st{
+    background-image: url(Sumanth_kumar_.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#bm{
+    background-image: url(bm.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.genre{
+    display: flex;
+    flex-direction: row; 
+}
+.g{
+    background-color: rgb(144, 159, 173);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ch:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.booknow:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.booknow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0c244;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 750;
+}
+.moremovies{
+    display: flex;
+}
+figure{
+    height: 375px;
+    margin: 0px;
+    margin-right: 30px;
+    border: 2px solid #f0c244ad;
+    background-color:#f0c244ad;
+    border-radius: 10px;   
+} 
+figure:hover{
+    transform: scale(1.07);
+    transition-duration: 0.5s;
+}
+.movieimg{
+    height: 300px;
+    border-radius: 10px;
+}
+figcaption{
+    display: flex;
+} 
+.second{
+    font-size: small;
+    color: white;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.first{
+    font-size: xx-large;
+    color: white;
+}
+h1{
+    color: white;
+}
+.offers{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.offer{
+    width:30%;
+    height:150px;
+    background-image: url(newoffer.jpg);
+    margin-right: 10px;
+    border-radius:10px;
+    padding-left: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#073763;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fot{
+    margin: 10px;
+}
+.bval{
+    font-size: small;
+}
+.offer:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.foot1{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
